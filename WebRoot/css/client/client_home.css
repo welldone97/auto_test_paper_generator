@@ -1,0 +1,15 @@
+#buttonDiv{
+	margin:0 auto; 
+	width:400px; 
+	height:100px; 
+	border:1px solid #F00;
+	text-align:center;
+}
+
+.row{
+	margin-bottom:10px;
+}
+
+.body{
+	margin-top:50px;
+}

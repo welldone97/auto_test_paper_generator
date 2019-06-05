@@ -1,0 +1,36 @@
+
+.layui-layer-title{
+	background:url(../../images/admin/righttitlebig.png) repeat-x;
+	font-weight:bold;
+	color:#46647e;
+	border:1px solid #c1d3de;
+	height: 33px;
+	line-height: 33px;
+}
+.tabe_bot label{
+	width: 70px;
+	text-align: right;
+	font-size: 14px;
+	font-weight: 900;
+	color: #46647e
+}
+.l_left{
+	float: left
+}
+.tabe_bot input,.tabe_bot  select{
+	width: 160px;
+	height: 30px;
+	border-radius: 6px;
+	margin:0 20px 0 0;
+	border: none;
+	border: 1px #ccc solid;
+	text-indent: 1em
+}
+.tabe_btn{
+	width: 60px;
+	height: 30px;
+	background-color: #68b86c;
+	border: none;
+	border-radius: 6px;
+	color: #fff
+}

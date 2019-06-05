@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <form enctype="multipart/form-data" onsubmit="return verifyAndSubmit(this)" id="dataForm" method="post" >
+		<div class="" style="border:1px solid blue;margin-top:20px">
+			<input type="hidden" name="questionTypeId" value="6"/>
+			<div id="subjectDiv" class="rowDiv form-group">
+	    		<label for="selectSubject" id="selectSubjectLabel">学科：</label>
+	    		<select id="selectSubject" name="subjectId" onchange="javascript:subjectChanged()" class="form-control">
+	    			<option value="-1">--选择学科--</option>
+	    		</select>
+	    	</div>
+	    	<div id="knowledgePointDiv" class="rowDiv form-group">
+	    		<label for="selectKnowledgePoint" id="selectKnowledgePointLabel">知识点：</label>
+	    		<select id="selectKnowledgePoint" name="knowledgePointId" class="form-control">
+	    			<option value="-1">--选择知识点--</option>
+	    		</select>
+	    	</div>
+	    	<div id="titleDiv" class="rowDiv form-group">
+	    		<label for="titleInput" id="titleInputLabel">题干：</label>
+	    		<textarea id="titleInput" name="title" class="form-control" rows="4" style="resize: none;"></textarea>
+	    	</div>
+	    	<div id="imageDiv" class="rowDiv form-group">
+	    		<label for="imageFile">题目图片(若有)：</label>
+	    		<input type="file" id="imageFile" name="imageTitle"  multiple="multiple" accept="image/jpeg,image/jpg,image/png" onchange="imageFileChanged(this)"/>
+	    	</div>
+	    	
+	    	<div id="answerDiv" class="rowDiv form-group">
+	    		<label for="answerInput" id="answerInputLabel">答案：</label>
+	    		<textarea id="answerInput" name="answer" class="form-control" rows="4" style="resize: none;"></textarea>
+	    		<input type="file" id="imageFileAnswer" name="imageAnswer"  multiple="multiple" accept="image/jpeg,image/jpg,image/png" onchange="imageAnswerChanged(this)"/>
+	    	</div>
+	    	<div id="difficultyDiv" class="rowDiv form-group">
+	    		<label for="difficultyInput" id="difficultyInputLabel">难度(请输入0-1不超过4位有效数字的小数):</label>
+	    		<input type="text" id="difficultyInput" name="difficulty" class="form-control"/>
+	    	</div>
+	    	<div id="buttonDiv" class="rowDiv" style="text-align:center;">
+	    		<input type="submit" id="submitBtn" class="btn btn-info" style="width:80px;height:30px;margin-right:10px;"/>
+	    		<input type="reset" id="resetBtn" class="btn btn-info" style="width:80px;height:30px;margin-left:10px;"/>
+	    	</div>
+    	</div>
+	</form>	
+  </body>
+</html>

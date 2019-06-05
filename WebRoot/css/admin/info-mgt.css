@@ -1,0 +1,30 @@
+[genuitec-file-id="wc1-5"],[genuitec-lp-path="/auto_test_paper_generation/WebRoot/css/info-mgt.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+body{ font-family:'微软雅黑';}
+.title{  background:url(../../images/admin/righttitlebig.png) repeat-x; border:1px solid #c1d3de; overflow:visible;}
+.title h2{line-height:33px; margin-left:7px; padding-left:22px; font-weight:bold; font-size:14px; font-family:'宋体'; color:#000000; background:url(../../images/admin/titleico.png) no-repeat left center;}
+
+/*查询条件*/
+.query{ padding:18px 0 18px 0; border:1px solid #c1d3de; border-top:none; overflow:visible;}
+/*!*表格操作按钮*!*/
+.table-operate{ padding-left:15px; height:37px; line-height:37px; background:url(../../images/admin/toolbarbg.png) repeat-x; border:1px solid #c1d3de; border-top:none;}
+.table-operate a{ float:left; font-family:'宋体'; width: 45px;  text-align:right; color:#000; margin-right:20px;}
+.table-operate a.add{ background:url(../../images/admin/addico.png) no-repeat left 9px;}
+.table-operate a.del{ background:url(../../images/admin/delico.png) no-repeat left 9px;}
+.table-operate a.edit{ background:url(../../images/admin/edtico.png) no-repeat left 9px;}
+.table-operate a.count{ background:url(../../images/admin/tjico.png) no-repeat left 9px;}
+.table-operate a.check{ background:url(../../images/admin/bookico.png) no-repeat left 9px;}
+.table-operate a.out{ background:url(../../images/admin/tjico_down.png) no-repeat left 9px;}
+.table-operate a.sent01{ background:url(../../images/admin/sent01.png) no-repeat left 9px;}
+.table-operate a.back{ background:url(../../images/admin/back.png) no-repeat left 9px;}
+.table-operate a.check01{ background:url(../../images/admin/bookico.png) no-repeat left 9px;}
+.table-operate a.print{ background:url(../../images/admin/table_print.png) no-repeat left 9px;}
+
+/*表格*/
+
+thead tr th{font-weight: bold ;background-color: #E7F0F6}
+
+
+
